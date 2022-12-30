@@ -10,7 +10,7 @@
               <h1
                 class="mx-auto text-xl sm:text-2xl sm:mt-2 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-purple-600 mb-3"
               >
-                Hva trenger du hjelp til?
+                CV
               </h1>
               <div class="flex flex-col indicator w-full z-45">
                 <Transition>
@@ -41,7 +41,25 @@
                   v-model="inputValue"
                   id="inputText"
                   class="input w-full outline outline-cyan-300 mb-3 placeholder-cyan-300 mt-4"
-                  placeholder="Spør om akkurat hva du vil..."
+                  placeholder="Stillings beskrivelse...."
+                />
+                <input
+                  style="overflow: hidden"
+                  type="text"
+                  ref="myinput"
+                  v-model="inputValue"
+                  id="inputText"
+                  class="input w-full outline outline-cyan-300 mb-3 placeholder-cyan-300 mt-4"
+                  placeholder="Stillings beskrivelse...."
+                />
+                <input
+                  style="overflow: hidden"
+                  type="text"
+                  ref="myinput"
+                  v-model="inputValue"
+                  id="inputText"
+                  class="input w-full outline outline-cyan-300 mb-3 placeholder-cyan-300 mt-4"
+                  placeholder="Stillings beskrivelse...."
                 />
 
                 <!-- size -->
@@ -51,7 +69,7 @@
                 type="submit"
                 class="btn bg-fuchsia-500 border-4 border-black text-black hover:bg-fuchsia-300 mt-2"
               >
-                Generer tekst...⌛
+                Send inn⌛
               </button>
             </form>
             <div
@@ -100,6 +118,8 @@ import { ref, onMounted, reactive } from "vue";
 // };
 const myinput = ref(null);
 const inputValue = ref("");
+const inputValue1 = ref("");
+const inputValue2 = ref("");
 
 const resetText = () => {
   inputValue.value = "";

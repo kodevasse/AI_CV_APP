@@ -1,0 +1,1 @@
+import{_ as s,o as t,c as o,a as e}from"./index-d33975b2.js";const c={},r={class:"p-10"},a=e("div",{class:"about"},[e("h1",null,"Her kommer mer AI snacks etter hvert")],-1),n=[a];function _(d,i){return t(),o("div",r,n)}const m=s(c,[["render",_]]);export{m as default};

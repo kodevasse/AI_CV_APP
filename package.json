@@ -1,11 +1,11 @@
 {
-  "name": "openaisna",
+  "name": "AI_CV_APP",
   "version": "1.0.0",
   "engines": {
     "node": "16.17.1",
     "npm": "8.15"
   },
-  "description": "Generate images using OpenAI1",
+  "description": "Generate stuff with AI",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

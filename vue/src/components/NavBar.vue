@@ -17,11 +17,13 @@
 
     <div class="mx-auto">
       <a
-        href="https://www.twitter.com/pdpkrypto"
+        href="https://www.twitter.com/web3wizardper"
         target="_blank"
         class="flex flex-row w-full hover:text-pink-300 hover:transition-all hover:duration-400"
       >
-        <span class="mr-1 text-gray-300">made by PDP </span>
+        <span class="mr-1 text-gray-300"
+          >made by <span class="text-teal-200">Web3WizardPer </span></span
+        >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="icon icon-tabler icon-tabler-brand-twitter"

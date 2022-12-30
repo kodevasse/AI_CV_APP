@@ -11,3 +11,10 @@ import NavBar from "@/components/NavBar.vue";
     <RouterView />
   </div>
 </template>
+
+<style>
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+</style>
